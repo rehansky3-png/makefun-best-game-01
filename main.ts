@@ -1,3 +1,7 @@
+// best-game-01 entry: Emberfall — Lanterns of the Hollow, a wave-based arena shooter.
+// This file is the entrypoint: it copies game/ and screenshots/ beside it to /output and
+// writes /output/dossier.json, the summary the judge reads, with the vendored make.fun library.
+// The game itself lives in game/ (plain static files, no network); screenshots/ holds its 4 shots.
 // A working best-game-01 entry (Node 22, standard library only): the game is this directory's
 // game/ folder, plain static files a desktop browser loads offline (game/index.html and its ES
 // modules, no library and no network request), and the program hands it in. It copies game/ and
